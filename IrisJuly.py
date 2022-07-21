@@ -42,7 +42,9 @@ dataf= pd.DataFrame(['Iris-setosa','Iris-versicolor','Iris-virginica'])
 st.write(dataf)
 
 st.subheader('Prediction')
-
+st.write(prediction)
+if prediction==('Iris-setosa')
+st.image("https://th.bing.com/th/id/OIP.oGI7l-2yK0rjRIGPDDFpawHaE8?w=306&h=204&c=7&r=0&o=5&pid=1.7")
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
