@@ -43,6 +43,12 @@ st.write(dataf)
 
 st.subheader('Prediction')
 st.write(prediction)
+if prediction=='Iris-setosa' :
+    st.image('https://upload.wikimedia.org/wikipedia/commons/a/a7/Irissetosa1.jpg')
+elif prediction=='Iris-versicolor' :
+    st.image('https://upload.wikimedia.org/wikipedia/commons/2/27/Blue_Flag%2C_Ottawa.jpg')
+elif prediction=='Iris-virginica' :
+    st.image('https://www.fs.fed.us/wildflowers/beauty/iris/Blue_Flag/images/iris_virginica/iris_virginica_virginica_lg.jpg')
 
 
 st.subheader('Prediction Probability')
